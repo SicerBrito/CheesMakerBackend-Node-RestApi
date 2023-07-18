@@ -21,7 +21,7 @@ const UsuarioSchema = Schema({
         type:String,
         required:true,
         default: 'USER',
-        enum:['ADMIN','USER']
+        /* enum:['ADMIN','USER'] */
     },
     estado:{
         type:Boolean,
